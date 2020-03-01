@@ -22,3 +22,8 @@ workflows:
   test-all:
     jobs:
       - test_regression_model
+      build:
+        branches:
+          only:
+          - branch-test-8-3
+      
